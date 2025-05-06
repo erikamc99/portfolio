@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio Web",
+    "description": "Sitio web personal con React y Astro",
+    "url": "http://localhost:4321/"
+  }
+]

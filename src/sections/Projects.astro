@@ -1,0 +1,12 @@
+---
+import projects from '../data/projects.json'
+import { ProjectCard } from '../components/projects/ProjectCard'
+---
+
+<section>
+    
+	{projects.map(p => (
+      <ProjectCard {...p}/>
+    ))}
+
+</section>
