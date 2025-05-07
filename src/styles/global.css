@@ -3,7 +3,8 @@
   --color-text: #1a1a1a;
   --color-primary: #1e90ff;
   --color-secondary: #f0f0f0;
-  --color-title: #0b7285;
+  --color-terciary: #186bbe;
+  --color-title: #4dabf7;
   --color-shadow: #00000061;
   --switch-bg: #eee;
   --grad-bg: linear-gradient(
@@ -23,7 +24,8 @@
   --color-text: #f0f0f0;
   --color-primary: #4dabf7;
   --color-secondary: #2a2a2a;
-  --color-title: #0b7285;
+  --color-terciary: #3b80b9;
+  --color-title: #86c4f7;
   --color-shadow: #ffffffa1;
   --switch-bg: #111;
   --grad-bg: linear-gradient(
@@ -52,4 +54,10 @@ body {
 
 main {
   height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  opacity: 0;
 }
