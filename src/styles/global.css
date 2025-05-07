@@ -4,6 +4,7 @@
   --color-primary: #1e90ff;
   --color-secondary: #f0f0f0;
   --color-title: #0b7285;
+  --color-shadow: #00000061;
 }
 
 .dark {
@@ -12,6 +13,7 @@
   --color-primary: #4dabf7;
   --color-secondary: #2a2a2a;
   --color-title: #0b7285;
+  --color-shadow: #ffffffa1;
 }
 
 body {

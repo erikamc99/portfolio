@@ -1,0 +1,13 @@
+---
+import projects from '../../data/projects.json'
+import { ProjectCard } from '../../components/projects/ProjectCard'
+import './Projects.css';
+---
+
+<section>
+  <div class="projects-section">
+	  {projects.map(p => (
+      <ProjectCard {...p} client:visible />
+    ))}
+  </div>
+</section>
