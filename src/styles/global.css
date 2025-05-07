@@ -1,16 +1,27 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-primary: #1e90ff;
+  --color-secondary: #f0f0f0;
+  --color-title: #0b7285;
+}
+
+.dark {
+  --color-bg: #1a1a1a;
+  --color-text: #f0f0f0;
+  --color-primary: #4dabf7;
+  --color-secondary: #2a2a2a;
+  --color-title: #0b7285;
+}
+
 body {
-  font-family: system-ui, sans-serif;
   margin: 0;
-  padding: 2rem;
-  background: #f4f4f4;
-  color: #333;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1 {
-  color: #0b7285;
-}
-
-a {
-  color: #1864ab;
-  text-decoration: none;
+  color: var(--color-title);
 }
