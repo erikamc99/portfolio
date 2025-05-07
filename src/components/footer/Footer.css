@@ -1,0 +1,11 @@
+.footer {
+    background: var(--grad-bg-reverse);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    padding: 1.5%;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    width: 100%;
+    position: relative;
+}
