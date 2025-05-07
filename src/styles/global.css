@@ -10,7 +10,12 @@
     to bottom,
     rgba(30, 144, 255, 0.9),
     rgba(77, 171, 247, 0)
-);
+  );
+  --grad-bg-reverse: linear-gradient(
+    to bottom,
+    rgba(77, 171, 247, 0),
+    rgba(30, 144, 255, 0.9)
+  );
 }
 
 .dark {
@@ -25,7 +30,12 @@
     to bottom,
     rgba(77, 171, 247, 0.6),
     rgba(77, 171, 247, 0)
-);
+  );
+  --grad-bg-reverse: linear-gradient(
+    to bottom,
+    rgba(77, 171, 247, 0),
+    rgba(77, 171, 247, 0.6)
+  );
 }
 
 body {
@@ -34,8 +44,12 @@ body {
   color: var(--color-text);
   font-family: system-ui, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
-  color: var(--color-title);
+main {
+  height: 100%;
 }
