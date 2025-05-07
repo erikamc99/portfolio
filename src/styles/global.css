@@ -5,6 +5,12 @@
   --color-secondary: #f0f0f0;
   --color-title: #0b7285;
   --color-shadow: #00000061;
+  --switch-bg: #eee;
+  --grad-bg: linear-gradient(
+    to bottom,
+    rgba(30, 144, 255, 0.9),
+    rgba(77, 171, 247, 0)
+);
 }
 
 .dark {
@@ -14,6 +20,12 @@
   --color-secondary: #2a2a2a;
   --color-title: #0b7285;
   --color-shadow: #ffffffa1;
+  --switch-bg: #111;
+  --grad-bg: linear-gradient(
+    to bottom,
+    rgba(77, 171, 247, 0.6),
+    rgba(77, 171, 247, 0)
+);
 }
 
 body {
