@@ -1,20 +1,39 @@
 .project-container {
-    width: 30%;
+    width: 20%;
     border: 0.5px lightgray solid;
     border-radius: 10px;
-    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-bg);
+    box-shadow: 0 0 3px 0px var(--color-shadow);
+}
+
+.card-header {
+    height: fit-content;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card {
+    padding: 4%;
 }
 
 .title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0;
+    color: var(--color-title);
 }
 
 .description {
-    font-size: 1rem;
+    font-size: 0.75rem;
+    margin: 0;
 }
 
-.url {
-    font-size: 1rem;
-    color: #1864ab;
+.card-footer {
+    display: flex;
+    justify-content: end;
 }
