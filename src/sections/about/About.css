@@ -1,0 +1,129 @@
+.aboutme-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.aboutme-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 8px 0 40px 0;
+  background: linear-gradient(90deg,#61dafb 20%,#4dabf7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aboutme-content {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+}
+.aboutme-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  max-width: 260px;
+  padding-top: 16px;
+}
+.aboutme-photo {
+  border: 2.5px solid #4dabf7;
+  border-radius: 50%;
+  background: #181d29;
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+}
+.aboutme-bio {
+  color: var(--color-text);
+  border-bottom: 1px solid var(--color-primary);
+  padding-bottom: 12px;
+  margin: 0;
+  text-align: center;
+  font-size: 0.97rem;
+  line-height: 1.6;
+}
+.aboutme-location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-text);
+  font-size: 1rem;
+}
+.aboutme-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 10px 18px;
+  border-left: 1.5px solid #353849;
+}
+.aboutme-block h3 {
+  color: var(--color-title);
+  font-size: 1.08rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.aboutme-block {
+  margin-bottom: 4px;
+}
+.aboutme-block p {
+  color: var(--color-text);
+  font-size: 0.97rem;
+  margin: 0 0 7px 0;
+}
+.aboutme-block ul {
+  padding-left: 1.5em;
+  list-style: none;
+  margin-bottom: 0;
+}
+.aboutme-block ul li {
+  position: relative;
+  margin-bottom: 7px;
+  color: var(--color-text);
+  font-size: 0.97rem;
+}
+.aboutme-block ul li::before {
+  content: '';
+  position: absolute;
+  left: -3%;
+  top: 0.62em;
+  transform: translateY(-50%);
+  width: 1%;
+  height: 100%;
+  background: var(--color-primary);
+  border-radius: 2px;
+  display: inline-block;
+}
+.aboutme-bold {
+  font-weight: 700;
+  color: var(--color-text);
+}
+@media (max-width: 900px) {
+  .aboutme-content {
+    flex-direction: column;
+    gap: 36px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .aboutme-right {
+    border-left: none;
+    padding: 0;
+    width: 100%;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 600px) {
+  .aboutme-section {
+    padding: 32px 4px;
+  }
+  .aboutme-photo {
+    width: 120px;
+    height: 120px;
+  }
+  .aboutme-title {
+    font-size: 1.6rem;
+  }
+}
