@@ -1,0 +1,12 @@
+.canvas-container {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.stack-canvas {
+  display: block;
+  background: transparent;
+  border-radius: 50%;
+}
