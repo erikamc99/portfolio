@@ -1,0 +1,17 @@
+.stack-section {
+  padding: 4rem 2rem;
+  color: var(--text-color);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: var(--color-title);
+}
+
+html.dark {
+  --text-color: #ffffff;
+}
+
+html.light {
+  --text-color: #111111;
+}
