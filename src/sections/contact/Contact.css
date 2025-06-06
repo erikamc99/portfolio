@@ -1,0 +1,51 @@
+.contact-section {
+  padding: 4rem 2rem;
+  color: var(--text-color, white);
+}
+
+.section-title {
+    margin: 0 2%;
+    color: var(--color-title);
+}
+
+.contact-text {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #1e90ff;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #1864ab;
+}
+
+.contact-btn.email {
+  background: #4dabf7;
+}
+
+.contact-btn.linkedin {
+  background: #0077b5;
+}
+
+.contact-btn.linkedin:hover {
+  background: #005f8c;
+}
