@@ -19,6 +19,17 @@
   );
 }
 
+/* :root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-primary: #a78bfa; 
+  --color-secondary: #f3e8ff; 
+  --color-tertiary: #c4b5fd;
+  --color-accent: #d8b4fe; 
+  --color-shadow: rgba(0, 0, 0, 0.1);
+}
+ */
+
 .dark {
   --color-bg: #1a1a1a;
   --color-text: #f0f0f0;
