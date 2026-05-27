@@ -58,12 +58,12 @@ export const useSphere = (canvasRef, icons, canvasSize) => {
 
       const center = { x: w / 2, y: h / 2 };
       const radius = w / 3.2;
-      const iconSize = Math.round(w / 10);
+      const iconSize = Math.round(w / 12);
 
       ctx.clearRect(0, 0, w, h);
 
-      rotY += mouseX * 0.015;
-      rotX += mouseY * 0.015;
+      rotY += 0.002 + mouseX * 0.015;
+      rotX += 0.002 + mouseY * 0.015;
 
       const sphere = updateCoords(radius);
 
