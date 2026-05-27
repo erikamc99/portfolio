@@ -4,8 +4,8 @@ import { ProjectCard } from '../../components/projects/ProjectCard'
 import './Projects.css';
 ---
 
-<section>
-  <h1 class="section-title">My work</h1>
+<section class="projects-main-section" id="projects">
+  <h2 class="section-title">My work</h2>
   <div class="projects-section">
 	  {projects.map(p => (
       <ProjectCard {...p} client:visible />

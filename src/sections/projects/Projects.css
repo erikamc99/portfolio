@@ -1,11 +1,19 @@
+.projects-main-section {
+  padding: 4rem 2rem;
+}
+
 .projects-section {
-    padding: 2%;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .section-title {
-    margin: 0 2%;
-    color: var(--color-title);
+  width: fit-content;
+  font-size: 2.4rem;
+  font-weight: 600;
+  background: linear-gradient(90deg,#61dafb 20%,#4dabf7 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

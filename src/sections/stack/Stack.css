@@ -3,11 +3,6 @@
   color: var(--text-color);
 }
 
-.section-title {
-    margin: 0 2%;
-    color: var(--color-title);
-}
-
 html.dark {
   --text-color: #ffffff;
 }

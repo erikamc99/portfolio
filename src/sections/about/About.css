@@ -6,12 +6,13 @@
   overflow: hidden;
 }
 .aboutme-title {
+  width: fit-content;
   font-size: 2.4rem;
   font-weight: 600;
   text-align: center;
   margin: 8px 0 40px 0;
   background: linear-gradient(90deg,#61dafb 20%,#4dabf7 100%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .aboutme-content {
