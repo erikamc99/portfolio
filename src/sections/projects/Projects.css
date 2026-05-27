@@ -1,5 +1,5 @@
 .projects-main-section {
-  padding: 4rem 2rem;
+  padding: 2rem;
 }
 
 .projects-section {
@@ -17,4 +17,5 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   justify-self: center;
+  margin-top: 0;
 }
