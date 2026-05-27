@@ -15,8 +15,16 @@ export default function StackSphere({ icons }) {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
+  
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
 
-  useSphere(canvasRef, icons);
+    canvas.width = canvasSize;
+    canvas.height = canvasSize;
+  }, [canvasSize]);
+
+  useSphere(canvasRef, icons, canvasSize);
 
   return (
     <div className="canvas-container">
