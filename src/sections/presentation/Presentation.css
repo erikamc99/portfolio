@@ -2,9 +2,8 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 50%;
   text-align: center;
-  padding: 1rem;
+  padding: 4rem 2rem 2rem 2rem;
   flex-direction: column;
 }
 
@@ -23,7 +22,7 @@
 
 .presentation p {
   max-width: 600px;
-  margin: 0;
+  margin: 20px 0;
   font-size: 1.1rem;
   line-height: 1.6;
 }
